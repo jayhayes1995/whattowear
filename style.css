@@ -1,0 +1,58 @@
+.gamepage{
+    background-color: blue;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topsection{
+    width: 80%;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+   display: block;
+   position: relative;
+   display: flex;
+    justify-content: center;
+   
+}
+
+.title{
+    text-align: center;
+    color: white;
+}
+
+.lefttopbutton{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 2vw;
+    height: 50px;
+    scale: 1;
+}
+
+.topblock{
+    display: inline-block;
+    color: brown;
+    overflow: hidden;
+    width: 20%;
+    
+}
+
+.submit{
+    width: 30%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+}
+
+.topimage{
+    scale: 2;
+    transform: translate(0px, 60px);
+}
+.bottomimage{
+    scale: 2;
+    transform: translate(0px, -60px);
+}
